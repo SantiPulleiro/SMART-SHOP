@@ -1,0 +1,502 @@
+.bloque_encabezado {
+    background-color: rgb(34, 27, 68);
+    display: flex;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 70vh; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+    object-position: center; /* Centra la imagen en el contenedor */
+}
+
+.pestañas {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.letra_titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.palabra_logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alas {
+    max-width: 100px; /* Ancho fijo */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.pestañas_inicio {
+    background-color: rgb(34, 25, 59);
+    padding: 3dvh;
+    text-align: center;
+    flex: 4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(201, 201, 201);
+    transition: background-color 0.3s;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.pestañas_inicio:hover {
+    background-color: aliceblue;
+    color: black;
+    font-weight: 1300;
+    text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1%;
+    color: aliceblue;
+    background-color: rgb(34, 25, 59);
+}
+
+.title {
+    font-weight: 600;
+}
+
+.texto_de_carrusel {
+    color: black;
+}
+
+.cuerpo {
+    margin: 0%;
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    border: none;
+}
+
+.conteiner {
+    justify-content: center;
+    display: flex;
+    padding: 3%;
+    background-color: white;
+}
+
+.elemento_new {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+    display: flex; /* Asegúrate de que el contenedor tenga display flex */
+    flex-direction: column; /* Esto hace que los elementos hijos se apilen */
+    background-color: gainsboro;
+    padding: 10px;
+}
+
+.card-item {
+    color: black;
+    background-color: rgb(182, 175, 175);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.PRENDA {
+    display: flex;
+}
+
+.NEW_IN_SANTOS {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.img_modelo {
+    justify-content: center;
+    display: inline-flex;
+    padding: 3%;
+    background-color: rgb(255, 252, 252);
+}
+
+.pie_de_imagen {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    background-color: rgb(34, 25, 59);
+}
+
+.letra_pie {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    font-size: 2vh;
+}
+
+.redes {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.contactos {
+    background-color: rgb(95, 94, 94);
+}
+
+.cont_fotos_redes {
+    display: flex;
+    justify-content: center;
+}
+
+.img_redes {
+    width: auto;
+    height: auto;
+}
+
+.NEW_IN_SANTOS_ind {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+
+.imig {
+    max-width: 100%;
+    height: auto;
+}
+
+.letra_new {
+    padding-top: 1%;
+    font-weight: 800;
+}
+
+.boton_añadir_carrito {
+    background-color: rgb(0, 0, 0);
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.boton_añadir_carrito:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(59, 163, 59);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.html {
+    background-color: rgb(56, 56, 56);
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://previews.123rf.com/images/gypsygraphy/gypsygraphy1612/gypsygraphy161200011/67568109-fondos-borrosos-azules-claros-abstractos-elementos-para-su-sitio-web-o-presentaci%C3%B3n.jpg);
+}
+
+.pie_de_imagen2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.letra_pie2 {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.accordion-button {
+    border-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.accordion-button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#carrito0 {
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.titulo_carrito {
+    display: flex;
+    background-color: rgb(34, 25, 59);
+}
+
+.boton_carrito {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+}
+
+#boton_carrito_compra {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+}
+
+.categorias {
+    display: flex;
+    padding-top: 2%;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 60px 0;
+    font-size: 16px;
+    padding-top: 1%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h3 {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 450px) {
+    .boton_añadir_carrito {
+        font-size: 7px;
+    }
+
+    .PRENDA {
+        font-size: 10px;
+    }
+
+    .precio {
+        font-size: 10px;
+    }
+
+    .pestañas_inicio {
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+    }
+
+    .alas {
+        max-width: 100px;
+        height: auto; /* Altura automática para mantener la proporción */
+    }
+
+    .card {
+        max-width: 50%;
+        height: auto;
+    }
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    background-color: grey;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.carrusel-item.active {
+    justify-content: right;
+}
+
+.tamañ_img {
+    width: 100%; /* Para que se ajusten según el contenedor */
+    max-width: 200px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .accordion-button {
+        font-size: 20px;
+    }
+
+    .letra_pie {
+        font-size: 10px;
+    }
+
+    .pestañas_inicio {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .social-icons img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .letra_pie {
+        font-size: 10px;
+    }
+}
+.carrito {
+    display: none; /* Ocultar el carrito por defecto */
+    background-color: rgb(34, 25, 59);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    width: 300px;
+    height: 500px;
+    overflow: auto;
+}
+
+.cerrar-carrito {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.abrir-carrito {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#carrito {
+    background-color: rgb(34, 25, 59);
+    color: white;
+}
+
+/* Estilo para las imágenes de los productos */
+.card-img-top {
+    width: auto; /* Mantiene las proporciones horizontales */
+    height: auto; /* Mantiene las proporciones verticales */
+    max-width: 100%; /* Asegura que no exceda el ancho de la tarjeta */
+    max-height: 250px; /* Asegura que no exceda una altura fija */
+    object-fit: contain; /* Escala la imagen para que encaje dentro del contenedor sin recortarse */
+    object-position: center; /* Centra la imagen dentro del espacio disponible */
+}
+
+/* Estilo para las imágenes de los productos */
+.card-img-top {
+    width: auto;
+    height: auto;
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+    max-height: 250px; /* Altura máxima para mantener uniformidad */
+    object-fit: contain; /* Escala la imagen sin recortar ni distorsionar */
+    object-position: center; /* Centra la imagen en su espacio */
+}
+
+/* Grid para los productos */
+.elemento_new {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajusta el número de columnas automáticamente */
+    gap: 20px; /* Espaciado entre los elementos */
+    padding: 20px;
+}
+
+/* Responsividad adicional */
+@media (max-width: 768px) {
+    .card-img-top {
+        max-height: 200px; /* Reduce ligeramente la altura en pantallas más pequeñas */
+    }
+
+    
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+        max-height: 150px;
+    }
+
+    .elemento_new {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
