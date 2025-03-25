@@ -93,6 +93,7 @@ button {
     display: flex;
     padding: 3%;
     background-color: white;
+    
 }
 
 .elemento_new {
@@ -198,7 +199,7 @@ button {
     width: 100%;        /* Asegura que ocupe el ancho completo del contenedor */
     }
     
-}
+
 
 .boton_añadir_carrito:hover {
     color: rgb(0, 0, 0);
@@ -351,9 +352,9 @@ button {
 
 footer {
     color: rgb(0, 0, 0);
-    background-color: grey;
+    background-color: rgb(34, 27, 68);
     padding: 10px 0;
-    position: fixed;
+
     width: 100%;
     bottom: 0;
 }
@@ -505,4 +506,5 @@ footer {
     }
 
 }
+
 
