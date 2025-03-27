@@ -507,4 +507,11 @@ footer {
 
 }
 
-
+@media (max-width: 760px) {
+    .carousel-inner img {
+      height: auto; /* Permite que la altura se ajuste automáticamente */
+      max-height: 300px; /* Limita la altura máxima para pantallas pequeñas */
+      object-fit: contain; /* Asegura que la imagen no se recorte */
+      object-position: center; /* Centra la imagen dentro del contenedor */
+    }
+  }
